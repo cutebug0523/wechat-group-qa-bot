@@ -1,0 +1,27 @@
+{
+  "name": "wechat-group-qa-bot",
+  "version": "0.1.0",
+  "description": "微信群答疑机器人：Linux 官方微信 + 无障碍接口读群，不注入、不抓包、不碰协议",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "check": "tsc --noEmit",
+    "selftest": "node src/selftest.ts"
+  },
+  "dependencies": {
+    "@earendil-works/chord": "1.5.0",
+    "@earendil-works/pi-ai": "1.5.0",
+    "@earendil-works/pi-durable": "1.5.0",
+    "@earendil-works/pi-schema": "1.5.0",
+    "dbus-next": "0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}

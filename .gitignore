@@ -1,0 +1,16 @@
+node_modules/
+state/
+ocr/
+wechat/
+home/
+bus
+api_key
+bocha_key
+owner_wxid
+live_groups
+knowledge.md
+群主交代.md
+外部资料.md
+待群主确认.md
+drafts.jsonl
+*.png
